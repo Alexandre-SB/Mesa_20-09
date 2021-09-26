@@ -1,0 +1,68 @@
+* {
+    margin: auto;
+    -moz-box-sizing: content-box;
+}
+
+body {
+    background-image: url(../img/panoramica1.4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    margin: 10px auto;
+    font-family: 'Anton', sans-serif;
+    text-align: justify;
+}
+
+.container-fluid {
+    padding: 0.5px;
+    width: fit-content;
+    font-size: 20px
+}
+
+p, header, div {
+    font-family: 'Lobster', cursive;
+    object-fit: contain;
+    background-color: rgba(95, 178, 246, 0.5);
+}
+
+header, div, p {
+    object-fit: contain;
+    border: 10px solid 
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: #000000
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #F000000
+}
+
+ol {
+    padding: 20px 0 0 20px;
+    color: #000000
+}
+
+li {
+    padding: 12px 0 0 15px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 50% 5px 50%;
+    grid-auto-rows: max-content;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
